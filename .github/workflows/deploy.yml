@@ -19,7 +19,7 @@ jobs:
         with:
           images: maxidragon/dummy-wca-live
 
-      - name: Build and push Docker image
+      - name: Build and push Docker images
         uses: docker/build-push-action@v6
         with:
           context: ./
